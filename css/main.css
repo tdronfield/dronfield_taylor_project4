@@ -1,0 +1,46 @@
+main{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.column1{
+  background-color: pink;
+  height: 225px;
+  width: 100%;
+  display: block;
+}
+
+.column2{
+  background-color: red;
+  height: 225px;
+  width: 100%;
+  display: block;
+}
+
+@media screen and (min-width: 641px) {
+  .column1{
+    display: inline-block;
+    width: 24%;
+    background-color: blue;
+  }
+
+  .column2{
+    display: inline-block;
+    width: 24%;
+    background-color: purple;
+  }
+
+  .column3{
+    display: inline-block;
+    width: 24%;
+    height: 225px;
+    background-color: gray;
+  }
+
+  .column4{
+    display: inline-block;
+    width: 24%;
+    height: 225px;
+    background-color: brown;
+  }
+}
